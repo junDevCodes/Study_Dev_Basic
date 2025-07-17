@@ -28,7 +28,7 @@
 - repository에 기록된 log 불러오기
 
 ## git flow
-- fix
+- [![image.png](https://i.postimg.cc/sxq10JkR/image.png)](https://postimg.cc/K37Z1tc9)
 
 ## 사용자 설정
 - git config --global user.email "메일 주소"
