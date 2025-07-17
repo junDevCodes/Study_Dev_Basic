@@ -39,3 +39,7 @@
 - 원하는 명령을 단축키 생성 가능
 - ex) git config --global alias.st status
 - git st == git status
+
+## .gitignore
+- gitignore 파일에 등록하여 git에 push되지 않도록 한다
+- 한번 원격 저장소에 올라간 파일은 끝까지 추적되기 때문에 이 경우 git rm --cached를 통해 캐시를 제거하고 무시처리해야한다.
