@@ -1,28 +1,131 @@
-# 제목1
-- 이게 마크다운이다
-    * 신기하다
-        - 인정
+# Markdown 기초 정리
 
-## 실시간 변환
-- MD = markdown 파일
-- 그래서 README.MD 구나
-### 리스트
+> Markdown(마크다운)은 일반 텍스트로 작성하면서도 손쉽게 문서 서식을 적용할 수 있는 경량 마크업 언어입니다.  
+> GitHub, Notion, VSCode, 블로그 등 다양한 개발/문서 도구에서 사용됩니다.
+
 ---
-1. 순서 리스트 
-2. 신기하네
-### 코드는 이렇게
+
+## 1. 제목 (Heading)
+
+`#` 기호로 제목을 표현합니다. `#`의 개수에 따라 제목 수준이 달라집니다.
+
+```markdown
+# 제목1
+## 제목2
+### 제목3
+#### 제목4
+##### 제목5
+###### 제목6
+```
+
 ---
+
+## 2. 목록 (List)
+
+### ● 순서 있는 리스트 (번호 리스트)
+
+```markdown
+1. 첫 번째 항목
+2. 두 번째 항목
+3. 세 번째 항목
+```
+
+### ● 순서 없는 리스트 (점 리스트)
+
+```markdown
+- 항목 하나
+    * 하위 항목
+        - 더 하위 항목
+```
+
+---
+
+## 3. 강조 (서식)
+
+```markdown
+**굵게** → 결과:  **굵게**
+
+*기울임* 또는 _기울임_ → 결과:  *기울임*
+
+~~취소선~~ → 결과:  ~~취소선~~
+```
+
+---
+
+## 4. 코드 작성 (Code)
+
+### ● 인라인 코드
+
+```markdown
+`코드`
+```
+예: `print("hello")`
+
+### ● 코드 블록
+
+```markdown
 ```python
 print("hello")
 ```
-### 하이퍼링크
+```
+
+> 코드 블록은 백틱(```) 3개로 감싸며, 언어를 명시하면 구문 강조(syntax highlighting)가 적용됩니다.
+
 ---
-[Google](https://google.com/)
 
-![image](data:image/jpeg;base64,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)
+## 5. 수평선 (구분선)
 
-**bold 처리 하는법**
+```markdown
+---
+```
 
-*기울이기*
+결과:
 
-~~취소선~~
+---
+
+---
+
+## 6. 링크 (하이퍼링크)
+
+```markdown
+[Google](https://google.com)
+```
+
+결과: [Google](https://google.com)
+
+---
+
+## 7. 이미지 삽입
+
+```markdown
+![이미지 설명](이미지주소)
+```
+
+예:
+```markdown
+![logo](https://example.com/logo.png)
+```
+
+※ 실제 이미지가 보이지 않는 경우, Markdown Preview를 지원하는 환경에서 확인해야 합니다.
+
+---
+
+## 8. 마크다운 파일 확장자
+
+- `.md`, `.markdown` 확장자를 사용
+- 대표적으로 GitHub의 `README.md`는 프로젝트 소개 문서로 자동 표시됩니다.
+
+---
+
+## 9. 기타 유용한 팁
+
+- `<br>` 태그를 사용하면 줄바꿈을 명시적으로 줄 수 있습니다.  
+  예: `첫 줄<br>두 번째 줄`
+
+- 텍스트 강조와 링크, 코드 등을 조합하여 블로그, 위키 문서처럼 활용할 수 있습니다.
+
+---
+
+## 📌 마무리
+
+Markdown은 TIL 작성, GitHub 문서, 기술 블로그, README, Notion 문서 등 개발자에게 매우 중요한 도구입니다. 익숙해질수록 깔끔하고 가독성 높은 문서를 작성할 수 있습니다.

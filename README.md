@@ -54,7 +54,7 @@
 
 ## 📩 문의
 
-질문이나 피드백이 있다면 [Issues](https://github.com/사용자명/저장소명/issues) 또는 PR로 남겨주세요.
+질문이나 피드백이 있다면 [Issues](https://github.com/junDevCodes/Study_Dev_Basic/issues) 또는 PR로 남겨주세요.
 
 ---
 
