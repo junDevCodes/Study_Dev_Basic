@@ -12,7 +12,7 @@
 - 실전 예시
 - 마크다운으로 문서 예쁘게 꾸미는 팁
 
-➡️ [`/markdown`](./markdown)
+➡️ [`/markdown`](./Markdown)
 
 ---
 
@@ -22,7 +22,7 @@
 - 로컬 저장소 vs 원격 저장소
 - GitHub로 협업하기
 
-➡️ [`/git`](./git)
+➡️ [`/git`](./Git)
 
 ---
 
