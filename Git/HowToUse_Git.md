@@ -43,3 +43,7 @@
 ## .gitignore
 - gitignore 파일에 등록하여 git에 push되지 않도록 한다
 - 한번 원격 저장소에 올라간 파일은 끝까지 추적되기 때문에 이 경우 git rm --cached를 통해 캐시를 제거하고 무시처리해야한다.
+
+## git revert <commit_id>
+- 단일 commit을 실행 취소 시킨다
+- commit_id는 git.log를 통해 확인 가능
