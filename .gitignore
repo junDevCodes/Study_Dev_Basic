@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# 환경설정 및 임시 파일
+.env
+*.log
+*.tmp
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# 기타 자동화 툴 관련
+node_modules/
+dist/
+build/
